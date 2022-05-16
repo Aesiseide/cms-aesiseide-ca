@@ -68,7 +68,7 @@ span:not(.btn) bdi {
   padding-right: 8%;
   box-sizing: border-box;
   overflow: hidden;
-  background-color: antiquewhite;
+  background-color: darkslategrey;
 }
 .navbar {
   width: 100%;
@@ -100,26 +100,21 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 20px;
+  font-size: 30px;
+  margin-top: -20px;
 }
 nav ul li a:hover {
   color: blueviolet;
 }
 
-footer {
-  width: 100%;
-  padding-left: 8%;
-  padding-right: 8%;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-color: antiquewhite;
-  height: 10vh;
-  text-align: center;
-}
+
 
 .text-aligned {
-  position: relative;
-  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 @media only screen and (max-width: 700px) {
